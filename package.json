@@ -21,7 +21,9 @@
   "homepage": "https://github.com/albennett/node-authentication#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
+    "connect-redis": "^3.0.2",
     "express": "^4.13.4",
+    "express-session": "^1.13.0",
     "jade": "^1.11.0"
   },
   "devDependencies": {
