@@ -1,8 +1,14 @@
-h1 Hello #{user.email}
+each msgs, type in messages
+  for msg in msgs
+    p(class=type)= msg
 
-if user.email === 'Guest'
-  form(action='/login', method='GET')
-    input(type='submit', value='Login')
-else
+if user
+  h1 Hello #{user.email}
+
   form(action='/login?_method=delete', method='POST')
     input(type='submit', value='Logout')
+else
+  h1 Hello Guest
+
+  form(action='/login', method='GET')
+    input(type='submit', value='Login')

@@ -1,5 +1,6 @@
-if message
-  p= message
+each msgs, type in messages
+  for msg in msgs
+    p(class=type)= msg
 
 form(action='/register', method='POST')
   .input-group
