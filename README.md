@@ -2,15 +2,15 @@
 
 A NSS classroom project working with authentication in Node using Passport
 
-Goal
+##Goal
 
 Create a simple register and login process with authentication using Passport and BCrypt. Also use in-memory data storage with Redis.
 
-Tools Used
+##Technologies Used
 
 Node, Express, Passport, BCRypt, Redis, Jade, MongoDB, Mongoose, Nodemon, Code editor
 
-Installation
+##Installation
 
 Create new repository and enter the following command:
 
